@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {Question1 , Question2 ,Question1_3 ,StarQuestion_3 , Question1_2,Question2_2 , Question2_5,Question1_5, Question2_4 ,Question1_4} from './Solutions'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <Question1 /> */}
+     {/* <Question2/> */}
+     {/* <Question1_3 /> */}
+     {/* <StarQuestion_3/> */}
+     {/* <Question1_2 />
+     <Question2_2 /> */}
+     {/* <Question1_5 /> */}
+     {/* <Question2_5 /> */}
+     <Question1_4 />
+     {/* <Question2_4 /> */}
     </div>
   );
 }
